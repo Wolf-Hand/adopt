@@ -1,0 +1,35 @@
+body {
+    background-color: #e3dcd2;
+    font-family: "swansea-font";
+  }
+  
+  h1 {
+    color: #cc8b65;
+    margin-left: 20px;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 25px 50px;
+  }
+
+nav {
+    background-color: #100c0d;
+    margin: 0 0 0 0;
+    padding: 15px;
+}
+
+header {
+    background-color: #013328;
+    font-family: "kona-font";
+    font-size: "500%";
+}
+
+.menu {
+    color: #cc8b65
+}
+
+@font-face {
+    font-family: "swansea-font";
+    src: url("fonts/swansea-font/Swansea-q3pd.ttf");
+    font-family: "kona-font";
+    src: url("fonts/kona-font/KonaRegular-PKdzP.ttf");
+}
