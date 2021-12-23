@@ -2,8 +2,8 @@ body {
     background-color: #e3dcd2;
     font-family: "swansea-font";
   }
-  
-  h1 {
+
+h1 {
     color: #cc8b65;
     margin-left: 20px;
     text-align: center;
@@ -20,11 +20,13 @@ nav {
 header {
     background-color: #013328;
     font-family: "kona-font";
-    font-size: "500%";
 }
 
 .menu {
-    color: #cc8b65
+    color: #cc8b65;
+    padding: 0px 15px;
+    margin: 0 0 0 0;
+    border-style: solid;
 }
 
 @font-face {
