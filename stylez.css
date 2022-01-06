@@ -3,23 +3,45 @@ body {
     font-family: "swansea-font";
   }
 
+p {
+    color: #013328;
+}
+
 h1 {
-    color: #cc8b65;
+    color: #013328;
     margin-left: 20px;
     text-align: center;
     margin: 0 0 0 0;
     padding: 25px 50px;
   }
-
+/*
 nav {
     background-color: #100c0d;
     margin: 0 0 0 0;
     padding: 15px;
 }
-
+*/
+/*
 header {
     background-color: #013328;
     font-family: "kona-font";
+}
+*/
+.hero-image {
+    background: url(images/onesie.jpg) no-repeat center; 
+    background-size: cover;
+    height: 400px;
+    position: relative;
+  }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f5f5f5;
+  text-shadow: 0px 0px 15px #100c0d;
 }
 
 .menu {
@@ -35,3 +57,27 @@ header {
     font-family: "kona-font";
     src: url("fonts/kona-font/KonaRegular-PKdzP.ttf");
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #100c0d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #333;
+  }
