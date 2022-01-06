@@ -14,19 +14,7 @@ h1 {
     margin: 0 0 0 0;
     padding: 25px 50px;
   }
-/*
-nav {
-    background-color: #100c0d;
-    margin: 0 0 0 0;
-    padding: 15px;
-}
-*/
-/*
-header {
-    background-color: #013328;
-    font-family: "kona-font";
-}
-*/
+
 .hero-image {
     background: url(images/onesie.jpg) no-repeat center; 
     background-size: cover;
@@ -58,7 +46,32 @@ header {
     src: url("fonts/kona-font/KonaRegular-PKdzP.ttf");
 }
 
-/*Navigation Bar*/
+/*Links*/
+a:link {
+  color: #cc8b65;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #cc8b65;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e3dcd2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #e3dcd2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Navigation Bar
 ul {
     list-style-type: none;
     margin: 0;
@@ -82,8 +95,41 @@ ul {
   li a:hover {
     background-color: #333;
   }
+*/
 
+/*FIXED NAV*/
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #100c0d;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #333;
+  color: #f2f2f2;
+}
+
+/* Main content */
+.main {
+  margin-top: 15px; /* Add a top margin to avoid content overlay */
+}
+
+  /* Footer */
   footer {
     background-color: #100c0d;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
