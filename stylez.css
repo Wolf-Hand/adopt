@@ -7,14 +7,15 @@
 
 body {
   background-color: #e3dcd2;
-  font-family: "swansea-font";
 }
 
 p {
+  font-family: "swansea-font";
   color: #013328;
 }
 
 h1 {
+  font-family: "kona-font";
   color: #013328;
   margin-left: 20px;
   text-align: center;
@@ -23,6 +24,7 @@ h1 {
 }
 
 h2 {
+  font-family: "kona-font";
   color: #013328;
   margin-left: 20px;
   text-align: justify;
@@ -55,6 +57,7 @@ body {margin:0;}
   position: fixed;
   top: 0;
   width: 100%;
+  font-family: "kona-font";
 }
 
 .navbar a {
