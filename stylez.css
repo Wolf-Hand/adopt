@@ -1,26 +1,40 @@
+@font-face {
+  font-family: "swansea-font";
+  src: url("fonts/swansea-font/Swansea-q3pd.ttf");
+  font-family: "kona-font";
+  src: url("fonts/kona-font/KonaRegular-PKdzP.ttf");
+}
+
 body {
-    background-color: #e3dcd2;
-    font-family: "swansea-font";
-  }
+  background-color: #e3dcd2;
+  font-family: "swansea-font";
+}
 
 p {
-    color: #013328;
+  color: #013328;
 }
 
 h1 {
-    color: #013328;
-    margin-left: 20px;
-    text-align: center;
-    margin: 0 0 0 0;
-    padding: 25px 50px;
-  }
+  color: #013328;
+  margin-left: 20px;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 25px 50px;
+}
+
+h2 {
+  color: #013328;
+  margin-left: 20px;
+  text-align: justify;
+  margin: 0 0 0 0;
+  padding: 25px 50px;
+}
 
 .hero-image {
-    background: url(images/onesie.jpg) no-repeat center; 
-    background-size: cover;
-    height: 400px;
-    position: relative;
-  }
+  background: url(images/onesie-min.jpg) no-repeat center; 
+  background-size: cover;
+  height: 400px;
+}
 
 .hero-text {
   text-align: center;
@@ -32,104 +46,63 @@ h1 {
   text-shadow: 0px 0px 15px #100c0d;
 }
 
-.menu {
-    color: #cc8b65;
-    padding: 0px 15px;
-    margin: 0 0 0 0;
-    border-style: solid;
-}
-
-@font-face {
-    font-family: "swansea-font";
-    src: url("fonts/swansea-font/Swansea-q3pd.ttf");
-    font-family: "kona-font";
-    src: url("fonts/kona-font/KonaRegular-PKdzP.ttf");
-}
-
-/*Links*/
-a:link {
-  color: #cc8b65;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #cc8b65;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #e3dcd2;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #e3dcd2;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-/* Navigation Bar
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #100c0d;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #333;
-  }
-*/
-
 /*FIXED NAV*/
-/* The navigation bar */
+body {margin:0;}
+
 .navbar {
   overflow: hidden;
   background-color: #100c0d;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-/* Links inside the navbar */
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #f5f5f5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-/* Change background on mouse-over */
 .navbar a:hover {
-  background: #333;
-  color: #f2f2f2;
+  background-color: #333;
 }
 
-/* Main content */
 .main {
-  margin-top: 15px; /* Add a top margin to avoid content overlay */
+  padding: 16px;
+  margin-top: 30px;
 }
 
-  /* Footer */
-  footer {
-    background-color: #100c0d;
-    padding: 5px;
-    text-align: center;
+/*FOOTER*/
+.footer {
+  background-color: #100c0d;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer a:link {
+  color: #cc8b65;
+  background-color: transparent;
+  text-decoration: none;
+}
+  
+.footer a:visited {
+  color: #cc8b65;
+  background-color: transparent;
+  text-decoration: none;
+}
+  
+.footer a:hover {
+  color: #f5f5f5;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  
+.footer a:active {
+  color: #f5f5f5;
+  background-color: transparent;
+  text-decoration: underline;
+}
