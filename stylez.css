@@ -9,6 +9,10 @@ body {
   background-color: #e3dcd2;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   font-family: "swansea-font";
   color: #013328;
@@ -50,6 +54,24 @@ h2 {
   text-shadow: 0px 0px 15px #100c0d;
 }
 
+.button {
+  border: none;
+  color: white;
+  background-color: #013328;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+  box-align: center;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  max-width: 500px;
+}
+
 /*FIXED NAV*/
 body {margin:0;}
 
@@ -86,6 +108,8 @@ body {margin:0;}
   background-color: #100c0d;
   padding: 5px;
   text-align: center;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer a:link {
