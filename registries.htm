@@ -9,20 +9,34 @@
   <meta name="author" content="Ben & Lydia Wright">
   <title>Lydia and Ben's Adoption Page</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Load external CSS styles -->
   <link rel="stylesheet" href="stylez.css">
 </head>
 
 <body>
-  <!-- FIXED NAV -->
-  <div class="navbar">
+  <!--FIXED NAV - RESPONSIVE-->
+  <div class="topnav" id="myTopnav">
     <a href="index.htm">Home</a>
     <a href="updates.htm">Updates</a>
     <a href="donate.htm">Donate</a>
     <a href="registries.htm">Registries</a>
     <a href="contact.htm">Contact</a>
-    <!-- <a href="#contact">Donate</a> -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
   </div>
+
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      }
+      else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  <!--END NAV-->
   
   <div class="main">
 
