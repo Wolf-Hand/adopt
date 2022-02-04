@@ -15,27 +15,49 @@
 </head>
 
 <body>
-  <!--FIXED NAV - RESPONSIVE-->
-  <div class="topnav" id="myTopnav">
-    <a href="index.htm">Home</a>
-    <a href="updates.htm">Updates</a>
-    <a href="donate.htm">Donate</a>
-    <a href="fundraisers.htm">Fundraisers</a>
-    <a href="registries.htm">Registries</a>
-    <a href="contact.htm">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+  <!--NAVIGATION-->
+  <!--LARGE NAVIGATION-->
+  <div id="largeNav">
+    <div class="topnav" id="largeNav">
+      <a href="index.htm">Home</a>
+      <a href="updates.htm">Updates</a>
+      <a href="donate.htm">Donate</a>
+      <a href="fundraisers.htm">Fundraisers</a>
+      <a href="registries.htm">Registries</a>
+      <a href="contact.htm">Contact</a>
+    </div>
+  </div>
+  <!--END LARGE NAVIGATION-->
+  <!--SMALL NAVIGATION-->
+  
+  <div id="smallNav">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
+      <a href="index.htm">Home</a>
+      <a href="updates.htm">Updates</a>
+      <a href="donate.htm">Donate</a>
+      <a href="fundraisers.htm">Fundraisers</a>
+      <a href="registries.htm">Registries</a>
+      <a href="contact.htm">Contact</a>
+    </div>
+    <div class="sidenavbar" style="font-size:175%;" onclick="openNav()">
+      <a><i class="fa fa-bars"></i> Wright Adoption</a>
+    </div>
+    
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
   </div>
   
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  </script>
+  <!--END SMALL NAVIGATION-->
+
+  <!--END NAVIGATION-->
 
   <div class="main">
     <!-- MAIN TEXT -->
