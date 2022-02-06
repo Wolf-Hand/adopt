@@ -62,7 +62,33 @@ h2 {
   max-width: 500px;
 }
 
-/*HEADER IMAGES UNO*/
+table {
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+  box-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  font-family: "kona-font";
+  color: #013328;
+  font-size: 250%;
+  margin-left: 20px;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+td {
+  font-family: "swansea-font";
+  color: #013328;
+  font-size: 175%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/*HEADER IMAGES*/
 
 .hero-image-index {
   background: url(images/onesie-min.jpg) no-repeat center; 
