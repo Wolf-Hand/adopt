@@ -88,6 +88,26 @@ td {
   padding-left: 10px;
 }
 
+/*PROGRESS BAR*/
+
+#myProgress {
+  width: 100%;
+  background-color: #cc8b65;
+}
+
+#myBar {
+  width: 94%;
+  height: 45px;
+  background-color: #100c0d;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 45px; /* To center it vertically */
+  color: #e3dcd2;
+  font-family: "swansea-font";
+  font-size: 150%;
+}
+
+/*END PROGRESS BAR*/
+
 /*HEADER IMAGES*/
 
 .hero-image-index {
