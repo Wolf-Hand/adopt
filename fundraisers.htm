@@ -14,7 +14,48 @@
   <link rel="stylesheet" href="stylez.css">
 </head>
 
-<body>
+<body onload="shirtPopUp()">
+
+  <!--MODAL-->
+  <div id="myModal" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>T-Shirts Now Available!</h1>
+	    <img src="images/tshirt.jfif" style="display:block; margin-left:auto; margin-right:auto; width:25%">
+	    <p style="text-align:center";>T-Shirts are available in a variety of sizes and colors. The cost is $20 per shirt. Your shirt will ship directly to you regardless of your location! Click the button below to order!</p>
+	    <a href="https://www.bonfire.com/wright-adoption-t-shirt/" target="_blank"><button class="button" style="margin-top: 0px;">Order T-Shirts!!</button></a>
+    </div>
+
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+  
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // Show Modal on Page Load
+    function shirtPopUp() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    <!--END MODAL-->
+
   <!--RESPONSIVE NAVIGATION-->
   <!--LARGE NAVIGATION-->
   <div id="largeNav">
@@ -70,7 +111,8 @@
 
     <h1 style="font-size: 300%">Fundraisers</h1>
 
-    <a href="puzzle_pieces.htm"><button class="button" style="margin-top: 0px;">Puzzle Pieces!</button></a>
+    <a href="https://www.bonfire.com/wright-adoption-t-shirt/" target="_blank"><button class="button" style="margin-top: 0px;">Click Here to Order T-Shirts!!</button></a>
+    <a href="puzzle_pieces.htm"><button class="button">Puzzle Pieces!</button></a>
     <a href="soaps.htm"><button class="button">Soap - Lotion Bars - Bath Bombs!</button></a>
 
   </div>
