@@ -89,7 +89,7 @@ td {
 }
 
 /*ANNOUNCEMENT STRIP*/
-
+/*
 .glow {
   font-size: 250%;
   color: #100c0d;
@@ -108,6 +108,15 @@ td {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #f5f5f5, 0 0 40px #e3dcd2, 0 0 50px #e3dcd2, 0 0 60px #e3dcd2, 0 0 70px #e3dcd2, 0 0 80px #e3dcd2;
   }
+}
+*/
+.strip {
+  font-size: 250%;
+  color: #e3dcd2;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  background-color: #013328;
 }
 
 /*END ANNOUNCEMENT STRIP*/
