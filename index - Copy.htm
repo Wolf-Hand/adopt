@@ -84,9 +84,12 @@
     <div class="hero-image-index"></div>
     
     <h1 style="font-size: 300%">What Are We Doing?</h1>
-	<a href="fb://profile?id=336834168672">FACEBOOK</a>
+	<div onclick="FB()>"
+    <a>FACEBOOK</a>
+  </div>
 
-<script>	
+<script>
+  function FB()
 	// Open Profile or page
 // To open in Application
 if UIApplication.shared.canOpenURL(URL(string: "fb://profile?id=336834168672")!) {
