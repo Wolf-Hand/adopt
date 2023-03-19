@@ -371,6 +371,39 @@ td {
 /*END - SMALL NAVIGATION*/
 /*END - NAVIGATION*/
 
+/*RESPONSIVE FLOW IMAGES*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column img {
+  flex: 32%;
+  padding-left: 1%;
+  width: 32%;
+}
+
+@media screen and (max-width: 830px) {
+  .column img {
+    flex-direction: column;
+    width: 70%;
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column img {
+    flex-direction: column;
+    width: 90%;
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+/*END - RESPONSIVE FLOW IMAGES*/
+
 /*FOOTER*/
 
 .footer {
