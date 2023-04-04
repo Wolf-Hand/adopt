@@ -26,6 +26,12 @@ p {
   text-align: justify;
 }
 
+li {
+    font-family: "swansea-font";
+    color: #013328;
+    font-size: 175%;
+}
+
 h1 {
   font-family: "kona-font";
   color: #013328;
@@ -371,38 +377,78 @@ td {
 /*END - SMALL NAVIGATION*/
 /*END - NAVIGATION*/
 
-/*RESPONSIVE FLOW IMAGES*/
+/*RESPONSIVE IMAGE GALLERY*/
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.gallery img {
+  width: 100%;
+  height: auto;
 }
 
-.column img {
-  flex: 32%;
-  padding-left: 1%;
-  width: 32%;
+.gallery img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 830px) {
-  .column img {
-    flex-direction: column;
-    width: 70%;
-    padding-left: auto;
-    padding-right: auto;
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.responsive3 {
+  padding: 0 6px;
+  float: left;
+  width: 33.3%;
+}
+
+.responsivecenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 700px) {
+  .responsivecenter {display: none;}
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 0;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .column img {
-    flex-direction: column;
+  .responsivecenter {
     width: 90%;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .responsive3 {display: none;}
 }
 
-/*END - RESPONSIVE FLOW IMAGES*/
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+
+  .responsivecenter {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .responsive3 {display: none;}
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*END RESPONSIVE IMAGE GALLERY*/
 
 /*FOOTER*/
 
