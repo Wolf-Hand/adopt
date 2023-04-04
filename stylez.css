@@ -16,6 +16,29 @@ body {
 }
 
 a {
+  color: #cc8b65;
+  background-color: transparent;
+  text-decoration: none;
+}
+  
+a:visited {
+  color: #cc8b65;
+  background-color: transparent;
+  text-decoration: none;
+}
+  
+a:hover {
+  color: #f5f5f5;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  
+a:active {
+  color: #f5f5f5;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a {
   text-decoration: none;
 }
 
